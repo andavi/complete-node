@@ -29,7 +29,6 @@ if (command === 'add') {
 	} else {
 		console.log('Note not found');
 	}
-
 } else if (command === 'remove') {
 	var noteRemoved = notes.removeNote(argv.title);
 	var message = noteRemoved ? 'Note was removed' : 'Note not found';
